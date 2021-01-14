@@ -46,7 +46,7 @@ class ListItem extends StatelessWidget {
                       ),
                     ),
                     SizedBox(
-                      width: 3,
+                      width: 5,
                     ),
                     Icon(
                       Icons.keyboard_arrow_down_outlined,
