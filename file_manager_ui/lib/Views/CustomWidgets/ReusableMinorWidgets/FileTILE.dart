@@ -77,6 +77,7 @@ class FileTile extends StatelessWidget {
                           fontSize: size.height * 0.018,
                           fontWeight: FontWeight.w500,
                           color: Colors.grey.shade500,
+                          height: 2,
                         ),
                       ),
                     ),
