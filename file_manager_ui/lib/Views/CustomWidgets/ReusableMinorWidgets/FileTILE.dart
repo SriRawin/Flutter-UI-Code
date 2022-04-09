@@ -60,20 +60,24 @@ class FileTile extends StatelessWidget {
                   crossAxisAlignment: CrossAxisAlignment.start,
                   mainAxisAlignment: MainAxisAlignment.spaceBetween,
                   children: [
-                    Text(
-                      title,
-                      style: TextStyle(
-                        fontSize: size.height * 0.025,
-                        fontWeight: FontWeight.w400,
-                        color: Colors.black87,
+                    Flexible(
+                      child: Text(
+                        title,
+                        style: TextStyle(
+                          fontSize: size.height * 0.022,
+                          fontWeight: FontWeight.w400,
+                          color: Colors.black87,
+                        ),
                       ),
                     ),
-                    Text(
-                      "${fileSize} ${date}",
-                      style: TextStyle(
-                        fontSize: size.height * 0.02,
-                        fontWeight: FontWeight.w500,
-                        color: Colors.grey.shade500,
+                    Flexible(
+                      child: Text(
+                        "${fileSize} ${date}",
+                        style: TextStyle(
+                          fontSize: size.height * 0.018,
+                          fontWeight: FontWeight.w500,
+                          color: Colors.grey.shade500,
+                        ),
                       ),
                     ),
                   ],

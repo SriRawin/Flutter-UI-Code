@@ -1,4 +1,5 @@
 import 'package:flutter/material.dart';
+
 import 'data.dart';
 
 class WalletHeader extends StatelessWidget {
@@ -10,7 +11,7 @@ class WalletHeader extends StatelessWidget {
         mainAxisAlignment: MainAxisAlignment.spaceBetween,
         children: [
           Text(
-            "Sri Rawin's Wallet",
+            "Sri's Wallet",
             style: TextStyle(
               fontSize: 26,
               fontWeight: FontWeight.bold,

@@ -1,4 +1,3 @@
-import 'package:flutter/cupertino.dart';
 import 'package:flutter/material.dart';
 import 'package:food_app_ui/constants.dart';
 
@@ -13,6 +12,7 @@ class LandingPage extends StatelessWidget {
     return Scaffold(
       backgroundColor: COLOR_WHITE,
       appBar: AppBar(
+        backgroundColor: Colors.transparent,
         elevation: 0,
         leading: Icon(
           Icons.menu,

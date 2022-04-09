@@ -13,6 +13,7 @@ class MyApp extends StatelessWidget {
       debugShowCheckedModeBanner: false,
       title: 'File Manager',
       theme: ThemeData(
+        fontFamily: "Poppins",
         primaryColor: KprimaryPurple,
         primarySwatch: Colors.deepPurple,
       ),
